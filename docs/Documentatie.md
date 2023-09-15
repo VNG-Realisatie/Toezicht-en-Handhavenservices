@@ -2,18 +2,20 @@
 layout: page-with-side-nav
 title: Documentatie StUF-BG
 folder_files:
-  - title: Koppelvlakspecificatie Keten Toezicht en Handhaven v0 9 6
+  - title: Koppelvlakspecificatie Keten Toezicht en Handhaven v0 9 6 (pdf)
     path: documenten/Koppelvlakspecificatie_Keten_Toezicht_en_Handhaven_v0_9_6.pdf
     group: 20
     versie: 0.9.6
     status: 
     omschrijving: 
-  - title: Koppelvlakspecificatie Toezicht en Handhaven - Berichtschema's
+    datum: 20140520
+  - title: Koppelvlakspecificatie Toezicht en Handhaven - Berichtschema's (zip)
     path: documenten/Koppelvlakspecificatie_Toezicht_en_Handhaven_-_Berichtschema%27s.zip
     group: 20
     versie: 2.0
     status: Definitief
     omschrijving: 
+    datum: 20140424
 ---
 
 # Documentatie
@@ -23,7 +25,7 @@ folder_files:
 <table>
 	<thead>
 		<tr>
-			<th>Document</th><th>Versie</th><th>Beheerstatus</th><th>Beschrijving</th>
+			<th>Document</th><th>Versie</th><th>Beheerstatus</th><th>Beschrijving</th><th>Versiedatum</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -38,6 +40,7 @@ folder_files:
 					<td>{{ i.versie }}</td>
 					<td>{{ i.status }}</td>
 					<td>{{ i.omschrijving }}</td>
+					<td>{{ i.datum }}</td>
 				</tr>
 			{% endif %} 
 		{% endfor %}
